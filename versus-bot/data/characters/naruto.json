@@ -1,0 +1,1490 @@
+{
+ "characters": [
+  {
+   "id": "naruto_uzumaki",
+   "name": "Naruto Uzumaki",
+   "short": "Naruto",
+   "universe": "naruto",
+   "default_form": "shippuden",
+   "data_status": "draft",
+   "aliases": [
+    "naruto",
+    "uzumaki naruto",
+    "naruto uzumaki"
+   ],
+   "forms": [
+    {
+     "id": "shippuden",
+     "name": "Mode Sage / Kurama",
+     "aliases": [
+      "naruto shippuden",
+      "naruto adulte",
+      "naruto adult",
+      "naruto kcm",
+      "naruto sage mode",
+      "naruto mode sage"
+     ],
+     "inherits": []
+    },
+    {
+     "id": "six_paths",
+     "name": "Mode Six Paths",
+     "aliases": [
+      "naruto six paths",
+      "naruto rikudo",
+      "six paths naruto",
+      "naruto sage des six chemins"
+     ],
+     "inherits": [
+      "shippuden"
+     ]
+    },
+    {
+     "id": "baryon",
+     "name": "Mode Baryon",
+     "aliases": [
+      "naruto baryon",
+      "baryon naruto",
+      "baryon mode naruto",
+      "naruto baryon mode",
+      "baryon mode"
+     ],
+     "inherits": [
+      "six_paths"
+     ]
+    }
+   ],
+   "feats": [
+    {
+     "id": "naruto_uzumaki.shippuden.strength.1",
+     "form": "shippuden",
+     "category": "strength",
+     "value": 40,
+     "kind": "interpretation",
+     "description": "Mode Kurama : affronte physiquement des Bijū et des clones de Kages",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "naruto_uzumaki.shippuden.speed.2",
+     "form": "shippuden",
+     "category": "speed",
+     "value": 42,
+     "kind": "interpretation",
+     "description": "Mode Kurama : se déplace au niveau des Kages lors de la guerre",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "naruto_uzumaki.shippuden.reaction_speed.3",
+     "form": "shippuden",
+     "category": "reaction_speed",
+     "value": 40,
+     "kind": "interpretation",
+     "description": "Perception étendue (Sage/Kurama) : réagit à des attaques de niveau Kage",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Pain arc / 4e Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "naruto_uzumaki.shippuden.durability.4",
+     "form": "shippuden",
+     "category": "durability",
+     "value": 42,
+     "kind": "interpretation",
+     "description": "Encaisse des coups de niveau Kage grâce au chakra de Kurama",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "naruto_uzumaki.shippuden.attack_power.5",
+     "form": "shippuden",
+     "category": "attack_power",
+     "value": 48,
+     "kind": "interpretation",
+     "description": "Rasenshuriken / Bijū-dama : destruction de vastes zones",
+     "confidence": 0.55,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Pain arc / 4e Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "naruto_uzumaki.shippuden.stamina.6",
+     "form": "shippuden",
+     "category": "stamina",
+     "value": 85,
+     "kind": "direct",
+     "description": "Enchaîne de très longs combats grâce aux réserves de Kurama",
+     "confidence": 0.6,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "naruto_uzumaki.shippuden.range.7",
+     "form": "shippuden",
+     "category": "range",
+     "value": 40,
+     "kind": "interpretation",
+     "description": "Bijū-dama et Rasenshuriken à longue portée",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "naruto_uzumaki.shippuden.battle_iq.8",
+     "form": "shippuden",
+     "category": "battle_iq",
+     "value": 66,
+     "kind": "interpretation",
+     "description": "Improvise et s'adapte en plein combat (Pain, Obito)",
+     "confidence": 0.55,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Pain arc / 4e Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "naruto_uzumaki.shippuden.experience.9",
+     "form": "shippuden",
+     "category": "experience",
+     "value": 62,
+     "kind": "interpretation",
+     "description": "Combats contre Akatsuki puis la 4e Grande Guerre",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Shippuden",
+      "verified": false
+     }
+    },
+    {
+     "id": "naruto_uzumaki.six_paths.strength.10",
+     "form": "six_paths",
+     "category": "strength",
+     "value": 58,
+     "kind": "interpretation",
+     "description": "Puissance physique amplifiée par le pouvoir des Six Chemins",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "naruto_uzumaki.six_paths.speed.11",
+     "form": "six_paths",
+     "category": "speed",
+     "value": 55,
+     "kind": "interpretation",
+     "description": "Se bat à armes égales avec Madara Jinchūriki et Kaguya",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "naruto_uzumaki.six_paths.reaction_speed.12",
+     "form": "six_paths",
+     "category": "reaction_speed",
+     "value": 52,
+     "kind": "interpretation",
+     "description": "Suit les attaques de Madara et Kaguya",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "naruto_uzumaki.six_paths.durability.13",
+     "form": "six_paths",
+     "category": "durability",
+     "value": 58,
+     "kind": "interpretation",
+     "description": "Survit à des attaques de Madara Jinchūriki des Dix-Queues",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "naruto_uzumaki.six_paths.attack_power.14",
+     "form": "six_paths",
+     "category": "attack_power",
+     "value": 62,
+     "kind": "interpretation",
+     "description": "Bijū-dama / Truth-Seeking Balls à très grande échelle",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "naruto_uzumaki.six_paths.range.15",
+     "form": "six_paths",
+     "category": "range",
+     "value": 52,
+     "kind": "interpretation",
+     "description": "Truth-Seeking Balls : attaques de zone géantes",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "naruto_uzumaki.six_paths.stamina.16",
+     "form": "six_paths",
+     "category": "stamina",
+     "value": 88,
+     "kind": "direct",
+     "description": "Réserve de chakra quasi inépuisable (Six Chemins + Kurama)",
+     "confidence": 0.55,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "naruto_uzumaki.baryon.strength.17",
+     "form": "baryon",
+     "category": "strength",
+     "value": 70,
+     "kind": "interpretation",
+     "description": "Mode Baryon : dépasse nettement la forme Six Paths",
+     "confidence": 0.4,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Boruto",
+      "verified": false
+     }
+    },
+    {
+     "id": "naruto_uzumaki.baryon.speed.18",
+     "form": "baryon",
+     "category": "speed",
+     "value": 70,
+     "kind": "interpretation",
+     "description": "Mode Baryon : mouvements bien au-delà du Six Paths",
+     "confidence": 0.4,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Boruto",
+      "verified": false
+     }
+    },
+    {
+     "id": "naruto_uzumaki.baryon.reaction_speed.19",
+     "form": "baryon",
+     "category": "reaction_speed",
+     "value": 66,
+     "kind": "interpretation",
+     "description": "Mode Baryon : réactions suivant sa vitesse",
+     "confidence": 0.4,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Boruto",
+      "verified": false
+     }
+    },
+    {
+     "id": "naruto_uzumaki.baryon.durability.20",
+     "form": "baryon",
+     "category": "durability",
+     "value": 68,
+     "kind": "interpretation",
+     "description": "Mode Baryon : encaisse des attaques de niveau Isshiki",
+     "confidence": 0.4,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Boruto",
+      "verified": false
+     }
+    },
+    {
+     "id": "naruto_uzumaki.baryon.attack_power.21",
+     "form": "baryon",
+     "category": "attack_power",
+     "value": 78,
+     "kind": "interpretation",
+     "description": "Mode Baryon : puissance offensive très supérieure",
+     "confidence": 0.4,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Boruto",
+      "verified": false
+     }
+    },
+    {
+     "id": "naruto_uzumaki.baryon.stamina.22",
+     "form": "baryon",
+     "category": "stamina",
+     "value": 22,
+     "kind": "statement",
+     "description": "Le mode Baryon consomme la force vitale de l'utilisateur : durée très courte",
+     "confidence": 0.6,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Boruto",
+      "verified": false
+     }
+    }
+   ],
+   "abilities": [
+    {
+     "id": "clones",
+     "name": "Kage Bunshin",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "clones",
+      "utility"
+     ],
+     "potency": 0.35,
+     "reliability": 0.9,
+     "win_type": "none",
+     "hax": false,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Clones multiples, partage d'expérience",
+     "confidence": 0.8,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "sage_sense",
+     "name": "Perception du chakra (Sage)",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "sensing"
+     ],
+     "potency": 0.4,
+     "reliability": 0.8,
+     "win_type": "none",
+     "hax": false,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Détecte le chakra",
+     "confidence": 0.7,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "kurama_regen",
+     "name": "Régénération de Kurama",
+     "forms": [
+      "shippuden"
+     ],
+     "tags": [
+      "regeneration"
+     ],
+     "potency": 0.5,
+     "reliability": 0.8,
+     "win_type": "none",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Soigne les blessures via le chakra de Kurama",
+     "confidence": 0.6,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "rasenshuriken",
+     "name": "Rasenshuriken",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "cellular_damage",
+      "energy_blast"
+     ],
+     "potency": 0.5,
+     "reliability": 0.5,
+     "win_type": "kill",
+     "hax": true,
+     "needs_contact": true,
+     "bypasses": [],
+     "description": "Lames de vent attaquant le réseau de chakra",
+     "confidence": 0.6,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "tsb",
+     "name": "Truth-Seeking Balls",
+     "forms": [
+      "six_paths"
+     ],
+     "tags": [
+      "nullification",
+      "energy_blast"
+     ],
+     "potency": 0.65,
+     "reliability": 0.6,
+     "win_type": "kill",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Sphères pouvant annihiler le chakra",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "six_seal",
+     "name": "Scellement Six Chemins (avec Sasuke)",
+     "forms": [
+      "six_paths"
+     ],
+     "tags": [
+      "sealing"
+     ],
+     "potency": 0.55,
+     "reliability": 0.45,
+     "win_type": "neutralize",
+     "hax": true,
+     "needs_contact": true,
+     "bypasses": [],
+     "description": "Technique de scellement utilisée avec un partenaire",
+     "confidence": 0.4,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "",
+      "verified": false
+     }
+    }
+   ],
+   "resistances": [
+    {
+     "forms": [
+      "*"
+     ],
+     "tag": "illusion",
+     "level": 0.5,
+     "via": "",
+     "note": "Kurama aide à dissiper les genjutsu",
+     "confidence": 0.5
+    },
+    {
+     "forms": [
+      "*"
+     ],
+     "tag": "mind_control",
+     "level": 0.4,
+     "via": "",
+     "note": "Volonté et Kurama",
+     "confidence": 0.4
+    }
+   ],
+   "weaknesses": [
+    {
+     "forms": [
+      "shippuden"
+     ],
+     "tag": "sealing",
+     "severity": 0.35,
+     "note": "Les Jinchūriki peuvent être extraits/scellés"
+    },
+    {
+     "forms": [
+      "baryon"
+     ],
+     "tag": "attrition",
+     "severity": 0.6,
+     "note": "Mode mortel à durée limitée"
+    }
+   ]
+  },
+  {
+   "id": "madara_uchiha",
+   "name": "Madara Uchiha",
+   "short": "Madara",
+   "universe": "naruto",
+   "default_form": "edo",
+   "data_status": "draft",
+   "aliases": [
+    "madara",
+    "uchiha madara"
+   ],
+   "forms": [
+    {
+     "id": "edo",
+     "name": "Edo Tensei, Susanoo parfait",
+     "aliases": [
+      "madara edo",
+      "edo madara",
+      "madara edo tensei",
+      "madara susanoo",
+      "madara perfect susanoo"
+     ],
+     "inherits": []
+    },
+    {
+     "id": "ten_tails",
+     "name": "Jinchūriki des Dix-Queues",
+     "aliases": [
+      "madara jinchuriki",
+      "madara ten tails",
+      "madara juubi",
+      "madara dix queues",
+      "madara rinnegan"
+     ],
+     "inherits": [
+      "edo"
+     ]
+    }
+   ],
+   "feats": [
+    {
+     "id": "madara_uchiha.edo.strength.1",
+     "form": "edo",
+     "category": "strength",
+     "value": 40,
+     "kind": "interpretation",
+     "description": "Tient tête à plusieurs Kages en combat physique avec le Susanoo",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "madara_uchiha.edo.speed.2",
+     "form": "edo",
+     "category": "speed",
+     "value": 42,
+     "kind": "interpretation",
+     "description": "Se bat contre cinq Kages simultanément sans être débordé",
+     "confidence": 0.55,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "madara_uchiha.edo.reaction_speed.3",
+     "form": "edo",
+     "category": "reaction_speed",
+     "value": 44,
+     "kind": "interpretation",
+     "description": "Sharingan : réagit aux attaques de tous les Kages",
+     "confidence": 0.55,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "madara_uchiha.edo.durability.4",
+     "form": "edo",
+     "category": "durability",
+     "value": 46,
+     "kind": "interpretation",
+     "description": "Susanoo parfait : encaisse les assauts combinés des Kages",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "madara_uchiha.edo.attack_power.5",
+     "form": "edo",
+     "category": "attack_power",
+     "value": 50,
+     "kind": "interpretation",
+     "description": "Météores (Chibaku) et Susanoo parfait : destruction de zones étendues",
+     "confidence": 0.55,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "madara_uchiha.edo.stamina.6",
+     "form": "edo",
+     "category": "stamina",
+     "value": 90,
+     "kind": "direct",
+     "description": "Corps Edo Tensei et chakra quasi illimité",
+     "confidence": 0.6,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "madara_uchiha.edo.range.7",
+     "form": "edo",
+     "category": "range",
+     "value": 50,
+     "kind": "interpretation",
+     "description": "Attaques de Susanoo et météores à grande portée",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "madara_uchiha.edo.battle_iq.8",
+     "form": "edo",
+     "category": "battle_iq",
+     "value": 84,
+     "kind": "direct",
+     "description": "Domine les 5 Kages par la stratégie et la lecture du combat",
+     "confidence": 0.6,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "madara_uchiha.edo.experience.9",
+     "form": "edo",
+     "category": "experience",
+     "value": 85,
+     "kind": "direct",
+     "description": "Chef de clan légendaire, vétéran des guerres de l'ère des clans",
+     "confidence": 0.6,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Naruto",
+      "verified": false
+     }
+    },
+    {
+     "id": "madara_uchiha.ten_tails.strength.10",
+     "form": "ten_tails",
+     "category": "strength",
+     "value": 56,
+     "kind": "interpretation",
+     "description": "Jinchūriki des Dix-Queues : force bien supérieure",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "madara_uchiha.ten_tails.speed.11",
+     "form": "ten_tails",
+     "category": "speed",
+     "value": 52,
+     "kind": "interpretation",
+     "description": "Domine Naruto et Sasuke en vitesse",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "madara_uchiha.ten_tails.reaction_speed.12",
+     "form": "ten_tails",
+     "category": "reaction_speed",
+     "value": 52,
+     "kind": "interpretation",
+     "description": "Réagit à Naruto en mode Kurama et Sasuke",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "madara_uchiha.ten_tails.durability.13",
+     "form": "ten_tails",
+     "category": "durability",
+     "value": 58,
+     "kind": "interpretation",
+     "description": "Survit à des attaques combinées de Naruto et Sasuke",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "madara_uchiha.ten_tails.attack_power.14",
+     "form": "ten_tails",
+     "category": "attack_power",
+     "value": 62,
+     "kind": "interpretation",
+     "description": "Bijū-dama des Dix-Queues et Chibaku Tensei",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "madara_uchiha.ten_tails.range.15",
+     "form": "ten_tails",
+     "category": "range",
+     "value": 58,
+     "kind": "interpretation",
+     "description": "Attaques de zone des Dix-Queues",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    }
+   ],
+   "abilities": [
+    {
+     "id": "edo_regen",
+     "name": "Régénération Edo Tensei",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "regeneration",
+      "immortality"
+     ],
+     "potency": 0.8,
+     "reliability": 0.9,
+     "win_type": "none",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Se régénère indéfiniment en tant que ressuscité",
+     "confidence": 0.7,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "sharingan_pre",
+     "name": "Sharingan (prescience)",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "precognition"
+     ],
+     "potency": 0.4,
+     "reliability": 0.8,
+     "win_type": "none",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Anticipe les mouvements",
+     "confidence": 0.6,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "susanoo",
+     "name": "Susanoo parfait",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "barrier",
+      "area_attack",
+      "energy_blast"
+     ],
+     "potency": 0.55,
+     "reliability": 0.9,
+     "win_type": "none",
+     "hax": false,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Armure/barrière géante",
+     "confidence": 0.7,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "chibaku",
+     "name": "Chibaku Tensei",
+     "forms": [
+      "ten_tails"
+     ],
+     "tags": [
+      "gravity",
+      "sealing"
+     ],
+     "potency": 0.6,
+     "reliability": 0.6,
+     "win_type": "neutralize",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Emprisonne la cible dans une sphère gravitationnelle",
+     "confidence": 0.6,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "",
+      "verified": false
+     }
+    }
+   ],
+   "resistances": [
+    {
+     "forms": [
+      "*"
+     ],
+     "tag": "illusion",
+     "level": 0.7,
+     "via": "",
+     "note": "Sharingan : résiste aux genjutsu",
+     "confidence": 0.6
+    },
+    {
+     "forms": [
+      "*"
+     ],
+     "tag": "mind_control",
+     "level": 0.6,
+     "via": "",
+     "note": "Volonté et Sharingan",
+     "confidence": 0.5
+    }
+   ],
+   "weaknesses": [
+    {
+     "forms": [
+      "edo",
+      "ten_tails"
+     ],
+     "tag": "sealing",
+     "severity": 0.5,
+     "note": "Un ressuscité peut être scellé"
+    }
+   ]
+  },
+  {
+   "id": "itachi_uchiha",
+   "name": "Itachi Uchiha",
+   "short": "Itachi",
+   "universe": "naruto",
+   "default_form": "base",
+   "data_status": "draft",
+   "aliases": [
+    "itachi",
+    "uchiha itachi"
+   ],
+   "forms": [
+    {
+     "id": "base",
+     "name": "Akatsuki / Edo Tensei",
+     "aliases": [
+      "itachi susanoo",
+      "itachi edo",
+      "itachi akatsuki"
+     ],
+     "inherits": []
+    }
+   ],
+   "feats": [
+    {
+     "id": "itachi_uchiha.base.strength.1",
+     "form": "base",
+     "category": "strength",
+     "value": 25,
+     "kind": "interpretation",
+     "description": "Combattant d'élite, surtout technique et ninjutsu",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Itachi vs Sasuke",
+      "verified": false
+     }
+    },
+    {
+     "id": "itachi_uchiha.base.speed.2",
+     "form": "base",
+     "category": "speed",
+     "value": 36,
+     "kind": "interpretation",
+     "description": "Tient tête à des shinobi de niveau Kage en vitesse",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Itachi vs Sasuke / 4e Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "itachi_uchiha.base.reaction_speed.3",
+     "form": "base",
+     "category": "reaction_speed",
+     "value": 38,
+     "kind": "interpretation",
+     "description": "Sharingan : lecture des mouvements, esquive à très courte distance",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Itachi vs Sasuke",
+      "verified": false
+     }
+    },
+    {
+     "id": "itachi_uchiha.base.durability.4",
+     "form": "base",
+     "category": "durability",
+     "value": 32,
+     "kind": "interpretation",
+     "description": "Susanoo : encaisse des attaques de zone majeures",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Itachi vs Sasuke",
+      "verified": false
+     }
+    },
+    {
+     "id": "itachi_uchiha.base.attack_power.5",
+     "form": "base",
+     "category": "attack_power",
+     "value": 42,
+     "kind": "interpretation",
+     "description": "Amaterasu et Susanoo : destruction de grandes zones",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Itachi vs Sasuke",
+      "verified": false
+     }
+    },
+    {
+     "id": "itachi_uchiha.base.stamina.6",
+     "form": "base",
+     "category": "stamina",
+     "value": 55,
+     "kind": "statement",
+     "description": "Limité par sa maladie de son vivant ; correct en Edo",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Itachi vs Sasuke",
+      "verified": false
+     }
+    },
+    {
+     "id": "itachi_uchiha.base.range.7",
+     "form": "base",
+     "category": "range",
+     "value": 45,
+     "kind": "interpretation",
+     "description": "Katon et Susanoo à longue portée",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Itachi vs Sasuke",
+      "verified": false
+     }
+    },
+    {
+     "id": "itachi_uchiha.base.battle_iq.8",
+     "form": "base",
+     "category": "battle_iq",
+     "value": 85,
+     "kind": "direct",
+     "description": "Stratège hors pair, anticipe tout un affrontement",
+     "confidence": 0.65,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Itachi vs Sasuke",
+      "verified": false
+     }
+    },
+    {
+     "id": "itachi_uchiha.base.experience.9",
+     "form": "base",
+     "category": "experience",
+     "value": 75,
+     "kind": "direct",
+     "description": "Ancien ANBU, agent double pendant des années",
+     "confidence": 0.6,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Naruto",
+      "verified": false
+     }
+    }
+   ],
+   "abilities": [
+    {
+     "id": "tsukuyomi",
+     "name": "Tsukuyomi",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "illusion"
+     ],
+     "potency": 0.75,
+     "reliability": 0.75,
+     "win_type": "neutralize",
+     "hax": true,
+     "needs_contact": true,
+     "bypasses": [],
+     "description": "Genjutsu absolu par contact visuel",
+     "confidence": 0.65,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "amaterasu",
+     "name": "Amaterasu",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "durability_negation",
+      "energy_blast"
+     ],
+     "potency": 0.65,
+     "reliability": 0.75,
+     "win_type": "kill",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Flammes noires qui brûlent jusqu'à destruction",
+     "confidence": 0.65,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "totsuka",
+     "name": "Épée de Totsuka",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "sealing"
+     ],
+     "potency": 0.75,
+     "reliability": 0.6,
+     "win_type": "neutralize",
+     "hax": true,
+     "needs_contact": true,
+     "bypasses": [],
+     "description": "Scelle la cible dans un genjutsu éternel",
+     "confidence": 0.6,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "",
+      "verified": false
+     }
+    }
+   ],
+   "resistances": [
+    {
+     "forms": [
+      "*"
+     ],
+     "tag": "illusion",
+     "level": 0.6,
+     "via": "",
+     "note": "Sharingan",
+     "confidence": 0.5
+    }
+   ],
+   "weaknesses": [
+    {
+     "forms": [
+      "*"
+     ],
+     "tag": "disease",
+     "severity": 0.4,
+     "note": "Sa maladie limite son endurance"
+    }
+   ]
+  },
+  {
+   "id": "sasuke_uchiha",
+   "name": "Sasuke Uchiha",
+   "short": "Sasuke",
+   "universe": "naruto",
+   "default_form": "rinnegan",
+   "data_status": "draft",
+   "aliases": [
+    "sasuke",
+    "uchiha sasuke"
+   ],
+   "forms": [
+    {
+     "id": "rinnegan",
+     "name": "Rinnegan, Susanoo parfait",
+     "aliases": [
+      "sasuke rinnegan",
+      "sasuke adult",
+      "sasuke adulte"
+     ],
+     "inherits": []
+    }
+   ],
+   "feats": [
+    {
+     "id": "sasuke_uchiha.rinnegan.strength.1",
+     "form": "rinnegan",
+     "category": "strength",
+     "value": 42,
+     "kind": "interpretation",
+     "description": "Combat rapproché avec Naruto Six Paths",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Guerre / Valley of the End II",
+      "verified": false
+     }
+    },
+    {
+     "id": "sasuke_uchiha.rinnegan.speed.2",
+     "form": "rinnegan",
+     "category": "speed",
+     "value": 48,
+     "kind": "interpretation",
+     "description": "Se bat à égalité avec Naruto Six Paths",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Valley of the End II",
+      "verified": false
+     }
+    },
+    {
+     "id": "sasuke_uchiha.rinnegan.reaction_speed.3",
+     "form": "rinnegan",
+     "category": "reaction_speed",
+     "value": 48,
+     "kind": "interpretation",
+     "description": "Sharingan/Rinnegan : suit Naruto Six Paths",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Valley of the End II",
+      "verified": false
+     }
+    },
+    {
+     "id": "sasuke_uchiha.rinnegan.durability.4",
+     "form": "rinnegan",
+     "category": "durability",
+     "value": 50,
+     "kind": "interpretation",
+     "description": "Susanoo parfait : encaisse des attaques à très grande échelle",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "sasuke_uchiha.rinnegan.attack_power.5",
+     "form": "rinnegan",
+     "category": "attack_power",
+     "value": 52,
+     "kind": "interpretation",
+     "description": "Indra's Arrow : destruction à grande échelle",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "sasuke_uchiha.rinnegan.stamina.6",
+     "form": "rinnegan",
+     "category": "stamina",
+     "value": 78,
+     "kind": "interpretation",
+     "description": "Longs affrontements sans épuisement net",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Valley of the End II",
+      "verified": false
+     }
+    },
+    {
+     "id": "sasuke_uchiha.rinnegan.range.7",
+     "form": "rinnegan",
+     "category": "range",
+     "value": 50,
+     "kind": "interpretation",
+     "description": "Flèche d'Indra, Chidori à distance",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "4e Grande Guerre",
+      "verified": false
+     }
+    },
+    {
+     "id": "sasuke_uchiha.rinnegan.battle_iq.8",
+     "form": "rinnegan",
+     "category": "battle_iq",
+     "value": 80,
+     "kind": "interpretation",
+     "description": "Adaptation rapide, bon tacticien",
+     "confidence": 0.55,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Shippuden",
+      "verified": false
+     }
+    },
+    {
+     "id": "sasuke_uchiha.rinnegan.experience.9",
+     "form": "rinnegan",
+     "category": "experience",
+     "value": 68,
+     "kind": "interpretation",
+     "description": "Années de combats contre Akatsuki et la guerre",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "Shippuden",
+      "verified": false
+     }
+    }
+   ],
+   "abilities": [
+    {
+     "id": "amaterasu_s",
+     "name": "Amaterasu / Kagutsuchi",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "durability_negation",
+      "energy_blast"
+     ],
+     "potency": 0.6,
+     "reliability": 0.75,
+     "win_type": "kill",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Flammes noires inextinguibles",
+     "confidence": 0.6,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "amenotejikara",
+     "name": "Amenotejikara",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "teleportation",
+      "space_manipulation"
+     ],
+     "potency": 0.7,
+     "reliability": 0.7,
+     "win_type": "none",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Échange de position avec un objet",
+     "confidence": 0.6,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "rinnegan_s",
+     "name": "Rinnegan : absorption",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "absorption"
+     ],
+     "potency": 0.45,
+     "reliability": 0.6,
+     "win_type": "none",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Absorbe certaines techniques",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Naruto",
+      "reference": "",
+      "verified": false
+     }
+    }
+   ],
+   "resistances": [
+    {
+     "forms": [
+      "*"
+     ],
+     "tag": "illusion",
+     "level": 0.6,
+     "via": "",
+     "note": "Sharingan",
+     "confidence": 0.5
+    }
+   ],
+   "weaknesses": []
+  }
+ ]
+}

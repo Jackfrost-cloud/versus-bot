@@ -1,0 +1,567 @@
+{
+ "characters": [
+  {
+   "id": "gojo_satoru",
+   "name": "Gojo Satoru",
+   "short": "Gojo",
+   "universe": "jjk",
+   "default_form": "base",
+   "data_status": "draft",
+   "aliases": [
+    "gojo",
+    "satoru gojo",
+    "gojo sensei"
+   ],
+   "forms": [
+    {
+     "id": "base",
+     "name": "Shinjuku / Shibuya",
+     "aliases": [
+      "gojo unsealed",
+      "gojo infinity",
+      "gojo base"
+     ],
+     "inherits": []
+    }
+   ],
+   "feats": [
+    {
+     "id": "gojo_satoru.base.strength.1",
+     "form": "base",
+     "category": "strength",
+     "value": 40,
+     "kind": "interpretation",
+     "description": "Combattant d'élite, surtout appuyé sur sa technique",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "Shibuya",
+      "verified": false
+     }
+    },
+    {
+     "id": "gojo_satoru.base.speed.2",
+     "form": "base",
+     "category": "speed",
+     "value": 58,
+     "kind": "interpretation",
+     "description": "Se déplace à des vitesses très élevées, suit Sukuna",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "Shinjuku Showdown",
+      "verified": false
+     }
+    },
+    {
+     "id": "gojo_satoru.base.reaction_speed.3",
+     "form": "base",
+     "category": "reaction_speed",
+     "value": 62,
+     "kind": "interpretation",
+     "description": "Six Yeux : lecture parfaite des mouvements",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "Shinjuku Showdown",
+      "verified": false
+     }
+    },
+    {
+     "id": "gojo_satoru.base.durability.4",
+     "form": "base",
+     "category": "durability",
+     "value": 42,
+     "kind": "interpretation",
+     "description": "Corps peu résistant, protégé par Infinity",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "Shinjuku Showdown",
+      "verified": false
+     }
+    },
+    {
+     "id": "gojo_satoru.base.attack_power.5",
+     "form": "base",
+     "category": "attack_power",
+     "value": 70,
+     "kind": "interpretation",
+     "description": "Hollow Purple : puissance détruisant une vaste zone",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "Shibuya / Shinjuku",
+      "verified": false
+     }
+    },
+    {
+     "id": "gojo_satoru.base.stamina.6",
+     "form": "base",
+     "category": "stamina",
+     "value": 55,
+     "kind": "interpretation",
+     "description": "Maintient ses techniques longtemps, limite d'énergie en combat prolongé",
+     "confidence": 0.4,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "Shinjuku Showdown",
+      "verified": false
+     }
+    },
+    {
+     "id": "gojo_satoru.base.range.7",
+     "form": "base",
+     "category": "range",
+     "value": 62,
+     "kind": "interpretation",
+     "description": "Hollow Purple, Bleu et Rouge à longue portée",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "Shinjuku Showdown",
+      "verified": false
+     }
+    },
+    {
+     "id": "gojo_satoru.base.battle_iq.8",
+     "form": "base",
+     "category": "battle_iq",
+     "value": 90,
+     "kind": "direct",
+     "description": "Combattant surdoué, exploite parfaitement sa technique",
+     "confidence": 0.6,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "Jujutsu Kaisen",
+      "verified": false
+     }
+    },
+    {
+     "id": "gojo_satoru.base.experience.9",
+     "form": "base",
+     "category": "experience",
+     "value": 78,
+     "kind": "interpretation",
+     "description": "Plus fort sorcier moderne, nombreux combats",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "Jujutsu Kaisen",
+      "verified": false
+     }
+    }
+   ],
+   "abilities": [
+    {
+     "id": "infinity",
+     "name": "Infinity",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "barrier"
+     ],
+     "potency": 0.9,
+     "reliability": 0.9,
+     "win_type": "none",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Barrière qui arrête tout ce qui approche",
+     "confidence": 0.65,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "purple",
+     "name": "Hollow Purple",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "energy_blast",
+      "erasure"
+     ],
+     "potency": 0.75,
+     "reliability": 0.55,
+     "win_type": "kill",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Fusion Rouge/Bleu effaçant la matière",
+     "confidence": 0.6,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "unlimited_void",
+     "name": "Domaine : Infinite Void",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "domain",
+      "mind_control"
+     ],
+     "potency": 0.85,
+     "reliability": 0.7,
+     "win_type": "neutralize",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Surcharge d'informations paralysant la cible",
+     "confidence": 0.6,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "rct_gojo",
+     "name": "Technique inversée",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "regeneration"
+     ],
+     "potency": 0.8,
+     "reliability": 0.9,
+     "win_type": "none",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Se soigne en combat",
+     "confidence": 0.7,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "",
+      "verified": false
+     }
+    }
+   ],
+   "resistances": [
+    {
+     "forms": [
+      "*"
+     ],
+     "tag": "physical",
+     "level": 0.9,
+     "via": "infinity",
+     "note": "Infinity stoppe les attaques physiques",
+     "confidence": 0.65
+    },
+    {
+     "forms": [
+      "*"
+     ],
+     "tag": "energy_blast",
+     "level": 0.8,
+     "via": "infinity",
+     "note": "Infinity stoppe les projectiles",
+     "confidence": 0.65
+    }
+   ],
+   "weaknesses": [
+    {
+     "forms": [
+      "*"
+     ],
+     "tag": "sealing",
+     "severity": 0.6,
+     "note": "Peut être scellé par le Prison Realm"
+    }
+   ]
+  },
+  {
+   "id": "ryomen_sukuna",
+   "name": "Ryomen Sukuna",
+   "short": "Sukuna",
+   "universe": "jjk",
+   "default_form": "full",
+   "data_status": "draft",
+   "aliases": [
+    "sukuna",
+    "ryomen sukuna",
+    "king of curses",
+    "roi des fleaux"
+   ],
+   "forms": [
+    {
+     "id": "full",
+     "name": "20 doigts",
+     "aliases": [
+      "sukuna 20 doigts",
+      "sukuna full power",
+      "heian sukuna"
+     ],
+     "inherits": []
+    }
+   ],
+   "feats": [
+    {
+     "id": "ryomen_sukuna.full.strength.1",
+     "form": "full",
+     "category": "strength",
+     "value": 56,
+     "kind": "interpretation",
+     "description": "Démolit des structures et des adversaires de niveau spécial",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "Shinjuku Showdown",
+      "verified": false
+     }
+    },
+    {
+     "id": "ryomen_sukuna.full.speed.2",
+     "form": "full",
+     "category": "speed",
+     "value": 64,
+     "kind": "interpretation",
+     "description": "Rivalise en vitesse avec Gojo",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "Shinjuku Showdown",
+      "verified": false
+     }
+    },
+    {
+     "id": "ryomen_sukuna.full.reaction_speed.3",
+     "form": "full",
+     "category": "reaction_speed",
+     "value": 64,
+     "kind": "interpretation",
+     "description": "Réagit aux techniques de Gojo",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "Shinjuku Showdown",
+      "verified": false
+     }
+    },
+    {
+     "id": "ryomen_sukuna.full.durability.4",
+     "form": "full",
+     "category": "durability",
+     "value": 56,
+     "kind": "interpretation",
+     "description": "Encaisse des coups de Gojo et d'un dôme d'effondrement",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "Shinjuku Showdown",
+      "verified": false
+     }
+    },
+    {
+     "id": "ryomen_sukuna.full.attack_power.5",
+     "form": "full",
+     "category": "attack_power",
+     "value": 72,
+     "kind": "interpretation",
+     "description": "Démantèlement et Cleave : destruction d'une grande zone à Shinjuku",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "Shinjuku Showdown",
+      "verified": false
+     }
+    },
+    {
+     "id": "ryomen_sukuna.full.stamina.6",
+     "form": "full",
+     "category": "stamina",
+     "value": 70,
+     "kind": "interpretation",
+     "description": "Soutient une longue bataille",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "Shinjuku Showdown",
+      "verified": false
+     }
+    },
+    {
+     "id": "ryomen_sukuna.full.range.7",
+     "form": "full",
+     "category": "range",
+     "value": 62,
+     "kind": "interpretation",
+     "description": "Slashs à longue portée, Malevolent Shrine à grande échelle",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "Shinjuku Showdown",
+      "verified": false
+     }
+    },
+    {
+     "id": "ryomen_sukuna.full.battle_iq.8",
+     "form": "full",
+     "category": "battle_iq",
+     "value": 88,
+     "kind": "direct",
+     "description": "Maîtrise parfaite de ses techniques, combattant vicieux",
+     "confidence": 0.6,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "Shinjuku Showdown",
+      "verified": false
+     }
+    },
+    {
+     "id": "ryomen_sukuna.full.experience.9",
+     "form": "full",
+     "category": "experience",
+     "value": 85,
+     "kind": "direct",
+     "description": "Roi des fléaux depuis l'ère Heian",
+     "confidence": 0.55,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "Jujutsu Kaisen",
+      "verified": false
+     }
+    }
+   ],
+   "abilities": [
+    {
+     "id": "shrine",
+     "name": "Domaine : Malevolent Shrine",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "domain",
+      "area_attack",
+      "durability_negation"
+     ],
+     "potency": 0.8,
+     "reliability": 0.7,
+     "win_type": "kill",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [
+      "physical",
+      "energy_blast"
+     ],
+     "description": "Taillades qui touchent à coup sûr",
+     "confidence": 0.6,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "wcs",
+     "name": "World Cutting Slash",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "space_manipulation",
+      "durability_negation"
+     ],
+     "potency": 0.85,
+     "reliability": 0.55,
+     "win_type": "kill",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Découpe l'espace lui-même",
+     "confidence": 0.55,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "dismantle",
+     "name": "Cleave / Dismantle",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "durability_negation"
+     ],
+     "potency": 0.65,
+     "reliability": 0.8,
+     "win_type": "kill",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Taillade adaptée à la résistance de la cible",
+     "confidence": 0.65,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "rct_sukuna",
+     "name": "Technique inversée",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "regeneration"
+     ],
+     "potency": 0.7,
+     "reliability": 0.85,
+     "win_type": "none",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Se soigne en combat",
+     "confidence": 0.65,
+     "source": {
+      "type": "original_work",
+      "work": "Jujutsu Kaisen",
+      "reference": "",
+      "verified": false
+     }
+    }
+   ],
+   "resistances": [],
+   "weaknesses": []
+  }
+ ]
+}

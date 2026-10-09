@@ -1,0 +1,717 @@
+{
+ "characters": [
+  {
+   "id": "sosuke_aizen",
+   "name": "Sosuke Aizen",
+   "short": "Aizen",
+   "universe": "bleach",
+   "default_form": "hogyoku",
+   "data_status": "draft",
+   "aliases": [
+    "aizen",
+    "sosuke aizen",
+    "aizen sosuke"
+   ],
+   "forms": [
+    {
+     "id": "captain",
+     "name": "Capitaine, Kyoka Suigetsu",
+     "aliases": [
+      "aizen captain",
+      "aizen base",
+      "aizen pre hogyoku",
+      "aizen avant fusion"
+     ],
+     "inherits": []
+    },
+    {
+     "id": "hogyoku",
+     "name": "Fusion avec le Hogyoku",
+     "aliases": [
+      "aizen hogyoku",
+      "aizen fusion",
+      "aizen final form",
+      "aizen fusionne",
+      "hogyoku aizen"
+     ],
+     "inherits": [
+      "captain"
+     ]
+    }
+   ],
+   "feats": [
+    {
+     "id": "sosuke_aizen.captain.strength.1",
+     "form": "captain",
+     "category": "strength",
+     "value": 34,
+     "kind": "interpretation",
+     "description": "Capitaine d'un niveau largement supérieur à ses pairs",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    },
+    {
+     "id": "sosuke_aizen.captain.speed.2",
+     "form": "captain",
+     "category": "speed",
+     "value": 40,
+     "kind": "interpretation",
+     "description": "Domine les Capitaines en vitesse",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    },
+    {
+     "id": "sosuke_aizen.captain.reaction_speed.3",
+     "form": "captain",
+     "category": "reaction_speed",
+     "value": 42,
+     "kind": "interpretation",
+     "description": "Réagit aux attaques de plusieurs Capitaines",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    },
+    {
+     "id": "sosuke_aizen.captain.durability.4",
+     "form": "captain",
+     "category": "durability",
+     "value": 36,
+     "kind": "interpretation",
+     "description": "Encaisse les assauts de plusieurs Capitaines",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    },
+    {
+     "id": "sosuke_aizen.captain.attack_power.5",
+     "form": "captain",
+     "category": "attack_power",
+     "value": 42,
+     "kind": "interpretation",
+     "description": "Kidō de très haut niveau (Hadō 90) et coups d'épée",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    },
+    {
+     "id": "sosuke_aizen.captain.stamina.6",
+     "form": "captain",
+     "category": "stamina",
+     "value": 70,
+     "kind": "interpretation",
+     "description": "Bataille de longue durée contre des Capitaines",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    },
+    {
+     "id": "sosuke_aizen.captain.range.7",
+     "form": "captain",
+     "category": "range",
+     "value": 45,
+     "kind": "interpretation",
+     "description": "Kidō à longue portée",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    },
+    {
+     "id": "sosuke_aizen.captain.battle_iq.8",
+     "form": "captain",
+     "category": "battle_iq",
+     "value": 95,
+     "kind": "direct",
+     "description": "Plan mené pendant des décennies, stratège absolu",
+     "confidence": 0.65,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Bleach",
+      "verified": false
+     }
+    },
+    {
+     "id": "sosuke_aizen.captain.experience.9",
+     "form": "captain",
+     "category": "experience",
+     "value": 85,
+     "kind": "direct",
+     "description": "Capitaine centenaire, plan millénaire",
+     "confidence": 0.55,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Bleach",
+      "verified": false
+     }
+    },
+    {
+     "id": "sosuke_aizen.hogyoku.strength.10",
+     "form": "hogyoku",
+     "category": "strength",
+     "value": 46,
+     "kind": "interpretation",
+     "description": "Fusion Hogyoku : écrase Ichigo Bankai",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    },
+    {
+     "id": "sosuke_aizen.hogyoku.speed.11",
+     "form": "hogyoku",
+     "category": "speed",
+     "value": 50,
+     "kind": "interpretation",
+     "description": "Fusion : bien au-dessus d'Ichigo Bankai",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    },
+    {
+     "id": "sosuke_aizen.hogyoku.reaction_speed.12",
+     "form": "hogyoku",
+     "category": "reaction_speed",
+     "value": 50,
+     "kind": "interpretation",
+     "description": "Réagit aux attaques d'Ichigo",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    },
+    {
+     "id": "sosuke_aizen.hogyoku.durability.13",
+     "form": "hogyoku",
+     "category": "durability",
+     "value": 55,
+     "kind": "interpretation",
+     "description": "Régénération et durabilité renforcées",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    },
+    {
+     "id": "sosuke_aizen.hogyoku.attack_power.14",
+     "form": "hogyoku",
+     "category": "attack_power",
+     "value": 58,
+     "kind": "interpretation",
+     "description": "Hadō destructeurs amplifiés par le Hogyoku",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    },
+    {
+     "id": "sosuke_aizen.hogyoku.stamina.15",
+     "form": "hogyoku",
+     "category": "stamina",
+     "value": 85,
+     "kind": "interpretation",
+     "description": "Hogyoku : énergie quasi illimitée",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    }
+   ],
+   "abilities": [
+    {
+     "id": "kyoka",
+     "name": "Kyoka Suigetsu (hypnose complète)",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "illusion",
+      "mind_control"
+     ],
+     "potency": 0.85,
+     "reliability": 0.7,
+     "win_type": "neutralize",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Hypnose absolue des cinq sens",
+     "confidence": 0.65,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "kurohitsugi",
+     "name": "Hadō 90 : Kurohitsugi",
+     "forms": [
+      "captain"
+     ],
+     "tags": [
+      "gravity",
+      "energy_blast"
+     ],
+     "potency": 0.55,
+     "reliability": 0.6,
+     "win_type": "kill",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Cage de gravité noire",
+     "confidence": 0.55,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "hogyoku_regen",
+     "name": "Régénération du Hogyoku",
+     "forms": [
+      "hogyoku"
+     ],
+     "tags": [
+      "regeneration",
+      "immortality"
+     ],
+     "potency": 0.85,
+     "reliability": 0.9,
+     "win_type": "none",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Se régénère de presque toutes blessures",
+     "confidence": 0.6,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "",
+      "verified": false
+     }
+    }
+   ],
+   "resistances": [
+    {
+     "forms": [
+      "*"
+     ],
+     "tag": "illusion",
+     "level": 0.8,
+     "via": "",
+     "note": "Maîtrise totale de l'hypnose",
+     "confidence": 0.55
+    },
+    {
+     "forms": [
+      "*"
+     ],
+     "tag": "mind_control",
+     "level": 0.7,
+     "via": "",
+     "note": "Volonté",
+     "confidence": 0.5
+    }
+   ],
+   "weaknesses": [
+    {
+     "forms": [
+      "*"
+     ],
+     "tag": "sealing",
+     "severity": 0.4,
+     "note": "Peut être scellé par un Kidō (Urahara)"
+    }
+   ]
+  },
+  {
+   "id": "ichigo_kurosaki",
+   "name": "Ichigo Kurosaki",
+   "short": "Ichigo",
+   "universe": "bleach",
+   "default_form": "bankai",
+   "data_status": "draft",
+   "aliases": [
+    "ichigo",
+    "ichigo kurosaki",
+    "kurosaki ichigo"
+   ],
+   "forms": [
+    {
+     "id": "bankai",
+     "name": "Bankai",
+     "aliases": [
+      "ichigo bankai",
+      "ichigo fkt"
+     ],
+     "inherits": []
+    },
+    {
+     "id": "mugetsu",
+     "name": "Mugetsu / Final Getsuga",
+     "aliases": [
+      "ichigo mugetsu",
+      "ichigo final getsuga",
+      "ichigo fgt",
+      "ichigo final getsuga tenshou"
+     ],
+     "inherits": [
+      "bankai"
+     ]
+    }
+   ],
+   "feats": [
+    {
+     "id": "ichigo_kurosaki.bankai.strength.1",
+     "form": "bankai",
+     "category": "strength",
+     "value": 40,
+     "kind": "interpretation",
+     "description": "Se bat de front contre des Capitaines et Espada",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    },
+    {
+     "id": "ichigo_kurosaki.bankai.speed.2",
+     "form": "bankai",
+     "category": "speed",
+     "value": 46,
+     "kind": "interpretation",
+     "description": "Bankai : vitesse bien au-dessus des Capitaines",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    },
+    {
+     "id": "ichigo_kurosaki.bankai.reaction_speed.3",
+     "form": "bankai",
+     "category": "reaction_speed",
+     "value": 46,
+     "kind": "interpretation",
+     "description": "Réagit aux attaques d'Aizen sous Kyoka",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    },
+    {
+     "id": "ichigo_kurosaki.bankai.durability.4",
+     "form": "bankai",
+     "category": "durability",
+     "value": 40,
+     "kind": "interpretation",
+     "description": "Encaisse des attaques de Capitaines",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    },
+    {
+     "id": "ichigo_kurosaki.bankai.attack_power.5",
+     "form": "bankai",
+     "category": "attack_power",
+     "value": 48,
+     "kind": "interpretation",
+     "description": "Getsuga Tenshō : destruction à grande échelle",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    },
+    {
+     "id": "ichigo_kurosaki.bankai.stamina.6",
+     "form": "bankai",
+     "category": "stamina",
+     "value": 65,
+     "kind": "interpretation",
+     "description": "Longs combats, régénération Hollow",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    },
+    {
+     "id": "ichigo_kurosaki.bankai.range.7",
+     "form": "bankai",
+     "category": "range",
+     "value": 40,
+     "kind": "interpretation",
+     "description": "Getsuga Tenshō à longue portée",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    },
+    {
+     "id": "ichigo_kurosaki.bankai.battle_iq.8",
+     "form": "bankai",
+     "category": "battle_iq",
+     "value": 72,
+     "kind": "interpretation",
+     "description": "Instinct de combat, adaptation rapide",
+     "confidence": 0.55,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Bleach",
+      "verified": false
+     }
+    },
+    {
+     "id": "ichigo_kurosaki.bankai.experience.9",
+     "form": "bankai",
+     "category": "experience",
+     "value": 55,
+     "kind": "interpretation",
+     "description": "Plusieurs arcs de combat intense",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Bleach",
+      "verified": false
+     }
+    },
+    {
+     "id": "ichigo_kurosaki.mugetsu.strength.10",
+     "form": "mugetsu",
+     "category": "strength",
+     "value": 46,
+     "kind": "interpretation",
+     "description": "Final Getsuga Tenshō : puissance concentrée",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    },
+    {
+     "id": "ichigo_kurosaki.mugetsu.speed.11",
+     "form": "mugetsu",
+     "category": "speed",
+     "value": 52,
+     "kind": "interpretation",
+     "description": "Mugetsu : vitesse accrue",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    },
+    {
+     "id": "ichigo_kurosaki.mugetsu.durability.12",
+     "form": "mugetsu",
+     "category": "durability",
+     "value": 38,
+     "kind": "statement",
+     "description": "Corps usé : le coût est la perte de ses pouvoirs",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    },
+    {
+     "id": "ichigo_kurosaki.mugetsu.attack_power.13",
+     "form": "mugetsu",
+     "category": "attack_power",
+     "value": 60,
+     "kind": "direct",
+     "description": "Bat Aizen fusionné avec le Hogyoku",
+     "confidence": 0.55,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    },
+    {
+     "id": "ichigo_kurosaki.mugetsu.stamina.14",
+     "form": "mugetsu",
+     "category": "stamina",
+     "value": 20,
+     "kind": "statement",
+     "description": "Forme à durée très limitée, coûte ses pouvoirs",
+     "confidence": 0.6,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "Fake Karakura Town",
+      "verified": false
+     }
+    }
+   ],
+   "abilities": [
+    {
+     "id": "getsuga",
+     "name": "Getsuga Tenshō",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "energy_blast"
+     ],
+     "potency": 0.6,
+     "reliability": 0.8,
+     "win_type": "none",
+     "hax": false,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Onde d'énergie spirituelle",
+     "confidence": 0.8,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "fgt_nullify",
+     "name": "Final Getsuga : annihilation spirituelle",
+     "forms": [
+      "mugetsu"
+     ],
+     "tags": [
+      "energy_blast",
+      "nullification"
+     ],
+     "potency": 0.7,
+     "reliability": 0.6,
+     "win_type": "kill",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Détruit le pouvoir spirituel de la cible",
+     "confidence": 0.55,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "hollow_regen",
+     "name": "Régénération Hollow",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "regeneration"
+     ],
+     "potency": 0.5,
+     "reliability": 0.7,
+     "win_type": "none",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Se régénère grâce à son Hollow",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Bleach",
+      "reference": "",
+      "verified": false
+     }
+    }
+   ],
+   "resistances": [
+    {
+     "forms": [
+      "*"
+     ],
+     "tag": "illusion",
+     "level": 0.3,
+     "via": "",
+     "note": "Résiste partiellement à Kyoka Suigetsu",
+     "confidence": 0.4
+    }
+   ],
+   "weaknesses": []
+  }
+ ]
+}

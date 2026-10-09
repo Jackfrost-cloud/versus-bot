@@ -1,0 +1,34 @@
+{
+ "universes": [
+  {
+   "id": "naruto",
+   "name": "Naruto",
+   "energy": "chakra"
+  },
+  {
+   "id": "one_piece",
+   "name": "One Piece",
+   "energy": "haki"
+  },
+  {
+   "id": "dragon_ball",
+   "name": "Dragon Ball",
+   "energy": "ki"
+  },
+  {
+   "id": "opm",
+   "name": "One Punch Man",
+   "energy": "physique"
+  },
+  {
+   "id": "jjk",
+   "name": "Jujutsu Kaisen",
+   "energy": "énergie maudite"
+  },
+  {
+   "id": "bleach",
+   "name": "Bleach",
+   "energy": "reiatsu"
+  }
+ ]
+}

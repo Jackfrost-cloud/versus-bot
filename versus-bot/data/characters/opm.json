@@ -1,0 +1,195 @@
+{
+ "characters": [
+  {
+   "id": "saitama",
+   "name": "Saitama",
+   "short": "Saitama",
+   "universe": "opm",
+   "default_form": "base",
+   "data_status": "draft",
+   "aliases": [
+    "saitama",
+    "caped baldy",
+    "one punch man",
+    "opm saitama"
+   ],
+   "forms": [
+    {
+     "id": "base",
+     "name": "Série sérieuse",
+     "aliases": [
+      "saitama serious",
+      "serious saitama",
+      "serious punch saitama"
+     ],
+     "inherits": []
+    }
+   ],
+   "feats": [
+    {
+     "id": "saitama.base.strength.1",
+     "form": "base",
+     "category": "strength",
+     "value": 70,
+     "kind": "interpretation",
+     "description": "Serious Punch : disperse l'atmosphère et détruit le vaisseau de Boros",
+     "confidence": 0.4,
+     "source": {
+      "type": "original_work",
+      "work": "One Punch Man",
+      "reference": "Boros arc",
+      "verified": false
+     }
+    },
+    {
+     "id": "saitama.base.speed.2",
+     "form": "base",
+     "category": "speed",
+     "value": 66,
+     "kind": "interpretation",
+     "description": "Traverse de grandes distances en quelques instants contre Boros",
+     "confidence": 0.35,
+     "source": {
+      "type": "original_work",
+      "work": "One Punch Man",
+      "reference": "Boros arc",
+      "verified": false
+     }
+    },
+    {
+     "id": "saitama.base.reaction_speed.3",
+     "form": "base",
+     "category": "reaction_speed",
+     "value": 62,
+     "kind": "interpretation",
+     "description": "Réagit aux assauts de Boros",
+     "confidence": 0.35,
+     "source": {
+      "type": "original_work",
+      "work": "One Punch Man",
+      "reference": "Boros arc",
+      "verified": false
+     }
+    },
+    {
+     "id": "saitama.base.durability.4",
+     "form": "base",
+     "category": "durability",
+     "value": 66,
+     "kind": "interpretation",
+     "description": "Survit à la Collapsing Star Roaring Cannon de Boros sans dégât notable",
+     "confidence": 0.4,
+     "source": {
+      "type": "original_work",
+      "work": "One Punch Man",
+      "reference": "Boros arc",
+      "verified": false
+     }
+    },
+    {
+     "id": "saitama.base.attack_power.5",
+     "form": "base",
+     "category": "attack_power",
+     "value": 72,
+     "kind": "interpretation",
+     "description": "Serious Punch : puissance à très grande échelle",
+     "confidence": 0.4,
+     "source": {
+      "type": "original_work",
+      "work": "One Punch Man",
+      "reference": "Boros arc",
+      "verified": false
+     }
+    },
+    {
+     "id": "saitama.base.stamina.6",
+     "form": "base",
+     "category": "stamina",
+     "value": 90,
+     "kind": "interpretation",
+     "description": "Aucune fatigue notable dans aucun combat",
+     "confidence": 0.4,
+     "source": {
+      "type": "original_work",
+      "work": "One Punch Man",
+      "reference": "One Punch Man",
+      "verified": false
+     }
+    },
+    {
+     "id": "saitama.base.range.7",
+     "form": "base",
+     "category": "range",
+     "value": 55,
+     "kind": "interpretation",
+     "description": "Ses coups déplacent l'air à grande distance",
+     "confidence": 0.35,
+     "source": {
+      "type": "original_work",
+      "work": "One Punch Man",
+      "reference": "Boros arc",
+      "verified": false
+     }
+    },
+    {
+     "id": "saitama.base.battle_iq.8",
+     "form": "base",
+     "category": "battle_iq",
+     "value": 45,
+     "kind": "interpretation",
+     "description": "Style direct, très peu de ruse",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "One Punch Man",
+      "reference": "One Punch Man",
+      "verified": false
+     }
+    },
+    {
+     "id": "saitama.base.experience.9",
+     "form": "base",
+     "category": "experience",
+     "value": 50,
+     "kind": "interpretation",
+     "description": "Nombreux combats mais peu de vrais adversaires",
+     "confidence": 0.4,
+     "source": {
+      "type": "original_work",
+      "work": "One Punch Man",
+      "reference": "One Punch Man",
+      "verified": false
+     }
+    }
+   ],
+   "abilities": [
+    {
+     "id": "saitama_growth",
+     "name": "Croissance sans limite",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "adaptation"
+     ],
+     "potency": 0.5,
+     "reliability": 0.5,
+     "win_type": "none",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Devient plus fort pendant le combat (déclaration)",
+     "confidence": 0.3,
+     "source": {
+      "type": "original_work",
+      "work": "One Punch Man",
+      "reference": "",
+      "verified": false
+     }
+    }
+   ],
+   "resistances": [],
+   "weaknesses": []
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+[
+ {"q": "Naruto vs Luffy", "expect": "any"},
+ {"q": "Goku vs Saitama", "expect": "any"},
+ {"q": "Gojo vs Sukuna", "expect": "any"},
+ {"q": "Madara vs Aizen", "expect": "any"},
+ {"q": "Goku ultra instinct vs Frieza", "expect": "a"},
+ {"q": "Ichigo mugetsu vs Aizen hogyoku", "expect": "any"}
+]

@@ -1,0 +1,827 @@
+{
+ "characters": [
+  {
+   "id": "son_goku",
+   "name": "Son Goku",
+   "short": "Goku",
+   "universe": "dragon_ball",
+   "default_form": "ssj_blue",
+   "data_status": "draft",
+   "aliases": [
+    "goku",
+    "son goku",
+    "kakarot",
+    "songoku"
+   ],
+   "forms": [
+    {
+     "id": "ssj_blue",
+     "name": "Super Saiyan Blue",
+     "aliases": [
+      "goku ssj blue",
+      "goku super saiyan blue",
+      "goku blue",
+      "blue goku",
+      "goku ssgss"
+     ],
+     "inherits": []
+    },
+    {
+     "id": "ui",
+     "name": "Ultra Instinct",
+     "aliases": [
+      "goku ultra instinct",
+      "goku ui",
+      "ui goku",
+      "ultra instinct goku",
+      "ultra instinct",
+      "goku migatte"
+     ],
+     "inherits": [
+      "ssj_blue"
+     ]
+    }
+   ],
+   "feats": [
+    {
+     "id": "son_goku.ssj_blue.strength.1",
+     "form": "ssj_blue",
+     "category": "strength",
+     "value": 72,
+     "kind": "interpretation",
+     "description": "Affronte physiquement Beerus (dieu de la destruction)",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Dragon Ball Super",
+      "verified": false
+     }
+    },
+    {
+     "id": "son_goku.ssj_blue.speed.2",
+     "form": "ssj_blue",
+     "category": "speed",
+     "value": 70,
+     "kind": "interpretation",
+     "description": "Évolue à des vitesses très supérieures à celles de ses transformations précédentes",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Dragon Ball Super",
+      "verified": false
+     }
+    },
+    {
+     "id": "son_goku.ssj_blue.reaction_speed.3",
+     "form": "ssj_blue",
+     "category": "reaction_speed",
+     "value": 68,
+     "kind": "interpretation",
+     "description": "Réagit à Hit et aux frappes de dieux de la destruction",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Dragon Ball Super",
+      "verified": false
+     }
+    },
+    {
+     "id": "son_goku.ssj_blue.durability.4",
+     "form": "ssj_blue",
+     "category": "durability",
+     "value": 72,
+     "kind": "interpretation",
+     "description": "Encaisse les coups de Beerus et des dieux",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Dragon Ball Super",
+      "verified": false
+     }
+    },
+    {
+     "id": "son_goku.ssj_blue.attack_power.5",
+     "form": "ssj_blue",
+     "category": "attack_power",
+     "value": 74,
+     "kind": "interpretation",
+     "description": "Kamehameha divin : destruction de planètes et au-delà",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Dragon Ball Super",
+      "verified": false
+     }
+    },
+    {
+     "id": "son_goku.ssj_blue.stamina.6",
+     "form": "ssj_blue",
+     "category": "stamina",
+     "value": 75,
+     "kind": "interpretation",
+     "description": "Longs combats (Tournoi du Pouvoir)",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Tournoi du Pouvoir",
+      "verified": false
+     }
+    },
+    {
+     "id": "son_goku.ssj_blue.range.7",
+     "form": "ssj_blue",
+     "category": "range",
+     "value": 60,
+     "kind": "interpretation",
+     "description": "Ki à très longue portée, déplacement dans l'espace",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Dragon Ball Super",
+      "verified": false
+     }
+    },
+    {
+     "id": "son_goku.ssj_blue.battle_iq.8",
+     "form": "ssj_blue",
+     "category": "battle_iq",
+     "value": 82,
+     "kind": "direct",
+     "description": "Génie du combat : s'adapte et apprend en cours de duel",
+     "confidence": 0.6,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Dragon Ball",
+      "verified": false
+     }
+    },
+    {
+     "id": "son_goku.ssj_blue.experience.9",
+     "form": "ssj_blue",
+     "category": "experience",
+     "value": 90,
+     "kind": "direct",
+     "description": "Des décennies de combats contre des menaces universelles",
+     "confidence": 0.6,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Dragon Ball",
+      "verified": false
+     }
+    },
+    {
+     "id": "son_goku.ui.strength.10",
+     "form": "ui",
+     "category": "strength",
+     "value": 78,
+     "kind": "interpretation",
+     "description": "Ultra Instinct : puissance de frappe nettement supérieure",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Tournoi du Pouvoir",
+      "verified": false
+     }
+    },
+    {
+     "id": "son_goku.ui.speed.11",
+     "form": "ui",
+     "category": "speed",
+     "value": 78,
+     "kind": "interpretation",
+     "description": "Mouvements autonomes bien au-delà de Blue",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Tournoi du Pouvoir",
+      "verified": false
+     }
+    },
+    {
+     "id": "son_goku.ui.reaction_speed.12",
+     "form": "ui",
+     "category": "reaction_speed",
+     "value": 82,
+     "kind": "direct",
+     "description": "Esquive automatique des attaques d'un Ange-niveau (Jiren)",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Tournoi du Pouvoir",
+      "verified": false
+     }
+    },
+    {
+     "id": "son_goku.ui.durability.13",
+     "form": "ui",
+     "category": "durability",
+     "value": 78,
+     "kind": "interpretation",
+     "description": "Encaisse les coups de Jiren",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Tournoi du Pouvoir",
+      "verified": false
+     }
+    },
+    {
+     "id": "son_goku.ui.attack_power.14",
+     "form": "ui",
+     "category": "attack_power",
+     "value": 80,
+     "kind": "interpretation",
+     "description": "Affronte Jiren qui détruit des zones à l'échelle cosmique",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Tournoi du Pouvoir",
+      "verified": false
+     }
+    },
+    {
+     "id": "son_goku.ui.stamina.15",
+     "form": "ui",
+     "category": "stamina",
+     "value": 60,
+     "kind": "statement",
+     "description": "Ultra Instinct est très coûteux en énergie",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Tournoi du Pouvoir",
+      "verified": false
+     }
+    },
+    {
+     "id": "son_goku.ui.battle_iq.16",
+     "form": "ui",
+     "category": "battle_iq",
+     "value": 90,
+     "kind": "interpretation",
+     "description": "Réactions instinctives parfaites",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Tournoi du Pouvoir",
+      "verified": false
+     }
+    }
+   ],
+   "abilities": [
+    {
+     "id": "ik",
+     "name": "Téléportation instantanée",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "teleportation"
+     ],
+     "potency": 0.8,
+     "reliability": 0.8,
+     "win_type": "none",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Se téléporte vers une signature de ki",
+     "confidence": 0.8,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "kame",
+     "name": "Kamehameha",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "energy_blast"
+     ],
+     "potency": 0.6,
+     "reliability": 0.8,
+     "win_type": "none",
+     "hax": false,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Onde d'énergie principale",
+     "confidence": 0.8,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "ki_sense",
+     "name": "Détection du ki",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "sensing"
+     ],
+     "potency": 0.5,
+     "reliability": 0.8,
+     "win_type": "none",
+     "hax": false,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Perçoit le ki",
+     "confidence": 0.8,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "ui_dodge",
+     "name": "Esquive automatique Ultra Instinct",
+     "forms": [
+      "ui"
+     ],
+     "tags": [
+      "precognition"
+     ],
+     "potency": 0.7,
+     "reliability": 0.7,
+     "win_type": "none",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Le corps esquive sans pensée",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "",
+      "verified": false
+     }
+    }
+   ],
+   "resistances": [],
+   "weaknesses": [
+    {
+     "forms": [
+      "ui"
+     ],
+     "tag": "attrition",
+     "severity": 0.5,
+     "note": "Ultra Instinct épuise rapidement"
+    }
+   ]
+  },
+  {
+   "id": "vegeta_prince",
+   "name": "Vegeta",
+   "short": "Vegeta",
+   "universe": "dragon_ball",
+   "default_form": "ssj_blue",
+   "data_status": "draft",
+   "aliases": [
+    "vegeta",
+    "prince vegeta"
+   ],
+   "forms": [
+    {
+     "id": "ssj_blue",
+     "name": "Super Saiyan Blue Evolution",
+     "aliases": [
+      "vegeta ssj blue",
+      "vegeta blue",
+      "vegeta evolution",
+      "vegeta ultra ego"
+     ],
+     "inherits": []
+    }
+   ],
+   "feats": [
+    {
+     "id": "vegeta_prince.ssj_blue.strength.1",
+     "form": "ssj_blue",
+     "category": "strength",
+     "value": 70,
+     "kind": "interpretation",
+     "description": "Affronte Beerus et Jiren physiquement",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Dragon Ball Super",
+      "verified": false
+     }
+    },
+    {
+     "id": "vegeta_prince.ssj_blue.speed.2",
+     "form": "ssj_blue",
+     "category": "speed",
+     "value": 68,
+     "kind": "interpretation",
+     "description": "Vitesse comparable à celle de Goku Blue",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Dragon Ball Super",
+      "verified": false
+     }
+    },
+    {
+     "id": "vegeta_prince.ssj_blue.reaction_speed.3",
+     "form": "ssj_blue",
+     "category": "reaction_speed",
+     "value": 66,
+     "kind": "interpretation",
+     "description": "Réagit aux assauts de Hit et de Jiren",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Dragon Ball Super",
+      "verified": false
+     }
+    },
+    {
+     "id": "vegeta_prince.ssj_blue.durability.4",
+     "form": "ssj_blue",
+     "category": "durability",
+     "value": 70,
+     "kind": "interpretation",
+     "description": "Encaisse des attaques de Jiren",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Tournoi du Pouvoir",
+      "verified": false
+     }
+    },
+    {
+     "id": "vegeta_prince.ssj_blue.attack_power.5",
+     "form": "ssj_blue",
+     "category": "attack_power",
+     "value": 73,
+     "kind": "interpretation",
+     "description": "Final Flash : destruction à l'échelle planétaire et au-delà",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Dragon Ball Super",
+      "verified": false
+     }
+    },
+    {
+     "id": "vegeta_prince.ssj_blue.stamina.6",
+     "form": "ssj_blue",
+     "category": "stamina",
+     "value": 70,
+     "kind": "interpretation",
+     "description": "Combat longuement contre Jiren",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Tournoi du Pouvoir",
+      "verified": false
+     }
+    },
+    {
+     "id": "vegeta_prince.ssj_blue.range.7",
+     "form": "ssj_blue",
+     "category": "range",
+     "value": 58,
+     "kind": "interpretation",
+     "description": "Ki à grande portée",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Dragon Ball Super",
+      "verified": false
+     }
+    },
+    {
+     "id": "vegeta_prince.ssj_blue.battle_iq.8",
+     "form": "ssj_blue",
+     "category": "battle_iq",
+     "value": 78,
+     "kind": "interpretation",
+     "description": "Guerrier expérimenté et stratège",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Dragon Ball Super",
+      "verified": false
+     }
+    },
+    {
+     "id": "vegeta_prince.ssj_blue.experience.9",
+     "form": "ssj_blue",
+     "category": "experience",
+     "value": 88,
+     "kind": "direct",
+     "description": "Des décennies de combat",
+     "confidence": 0.55,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Dragon Ball",
+      "verified": false
+     }
+    }
+   ],
+   "abilities": [
+    {
+     "id": "final_flash",
+     "name": "Final Flash",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "energy_blast"
+     ],
+     "potency": 0.6,
+     "reliability": 0.75,
+     "win_type": "none",
+     "hax": false,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Onde d'énergie concentrée",
+     "confidence": 0.75,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "ki_sense_v",
+     "name": "Détection du ki",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "sensing"
+     ],
+     "potency": 0.5,
+     "reliability": 0.8,
+     "win_type": "none",
+     "hax": false,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Perçoit le ki",
+     "confidence": 0.8,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "",
+      "verified": false
+     }
+    }
+   ],
+   "resistances": [],
+   "weaknesses": []
+  },
+  {
+   "id": "frieza",
+   "name": "Freezer",
+   "short": "Freezer",
+   "universe": "dragon_ball",
+   "default_form": "golden",
+   "data_status": "draft",
+   "aliases": [
+    "frieza",
+    "freezer"
+   ],
+   "forms": [
+    {
+     "id": "golden",
+     "name": "Golden Frieza",
+     "aliases": [
+      "golden frieza",
+      "golden freezer",
+      "freezer dore",
+      "frieza golden"
+     ],
+     "inherits": []
+    }
+   ],
+   "feats": [
+    {
+     "id": "frieza.golden.strength.1",
+     "form": "golden",
+     "category": "strength",
+     "value": 66,
+     "kind": "interpretation",
+     "description": "Combat physique de niveau divin contre Goku et Vegeta",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Resurrection F",
+      "verified": false
+     }
+    },
+    {
+     "id": "frieza.golden.speed.2",
+     "form": "golden",
+     "category": "speed",
+     "value": 66,
+     "kind": "interpretation",
+     "description": "Mouvements au niveau de Goku SSJ Blue",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Resurrection F",
+      "verified": false
+     }
+    },
+    {
+     "id": "frieza.golden.reaction_speed.3",
+     "form": "golden",
+     "category": "reaction_speed",
+     "value": 64,
+     "kind": "interpretation",
+     "description": "Réagit aux attaques de Goku",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Resurrection F",
+      "verified": false
+     }
+    },
+    {
+     "id": "frieza.golden.durability.4",
+     "form": "golden",
+     "category": "durability",
+     "value": 70,
+     "kind": "interpretation",
+     "description": "Encaisse des coups de Goku et Vegeta Blue",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Resurrection F",
+      "verified": false
+     }
+    },
+    {
+     "id": "frieza.golden.attack_power.5",
+     "form": "golden",
+     "category": "attack_power",
+     "value": 72,
+     "kind": "interpretation",
+     "description": "Death Ball : destruction de planètes",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Resurrection F",
+      "verified": false
+     }
+    },
+    {
+     "id": "frieza.golden.stamina.6",
+     "form": "golden",
+     "category": "stamina",
+     "value": 60,
+     "kind": "statement",
+     "description": "Forme dorée limitée en durée",
+     "confidence": 0.55,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Resurrection F",
+      "verified": false
+     }
+    },
+    {
+     "id": "frieza.golden.range.7",
+     "form": "golden",
+     "category": "range",
+     "value": 60,
+     "kind": "interpretation",
+     "description": "Ki à longue portée",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Resurrection F",
+      "verified": false
+     }
+    },
+    {
+     "id": "frieza.golden.battle_iq.8",
+     "form": "golden",
+     "category": "battle_iq",
+     "value": 76,
+     "kind": "interpretation",
+     "description": "Stratège cruel, mais orgueilleux",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Dragon Ball Z",
+      "verified": false
+     }
+    },
+    {
+     "id": "frieza.golden.experience.9",
+     "form": "golden",
+     "category": "experience",
+     "value": 85,
+     "kind": "direct",
+     "description": "Empereur de l'espace, des décennies de combats",
+     "confidence": 0.55,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "Dragon Ball Z",
+      "verified": false
+     }
+    }
+   ],
+   "abilities": [
+    {
+     "id": "death_ball",
+     "name": "Death Ball",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "energy_blast",
+      "area_attack"
+     ],
+     "potency": 0.6,
+     "reliability": 0.7,
+     "win_type": "none",
+     "hax": false,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Boule d'énergie géante",
+     "confidence": 0.7,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "frieza_regen",
+     "name": "Régénération",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "regeneration"
+     ],
+     "potency": 0.4,
+     "reliability": 0.6,
+     "win_type": "none",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Récupère de graves blessures",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "Dragon Ball",
+      "reference": "",
+      "verified": false
+     }
+    }
+   ],
+   "resistances": [],
+   "weaknesses": []
+  }
+ ]
+}

@@ -1,0 +1,148 @@
+{
+ "relations": [
+  {
+   "id": "rel.goku_frieza_ap",
+   "a": "son_goku:ssj_blue",
+   "b": "frieza:golden",
+   "category": "attack_power",
+   "relation": ">",
+   "kind": "direct",
+   "confidence": 0.8,
+   "description": "Goku Blue bat Golden Frieza",
+   "source": {
+    "type": "original_work",
+    "work": "Dragon Ball",
+    "reference": "Resurrection F",
+    "verified": false
+   }
+  },
+  {
+   "id": "rel.goku_frieza_speed",
+   "a": "son_goku:ssj_blue",
+   "b": "frieza:golden",
+   "category": "speed",
+   "relation": ">",
+   "kind": "direct",
+   "confidence": 0.75,
+   "description": "Goku Blue plus rapide que Golden Frieza",
+   "source": {
+    "type": "original_work",
+    "work": "Dragon Ball",
+    "reference": "Resurrection F",
+    "verified": false
+   }
+  },
+  {
+   "id": "rel.goku_vegeta_ap",
+   "a": "son_goku:ssj_blue",
+   "b": "vegeta_prince:ssj_blue",
+   "category": "attack_power",
+   "relation": "=",
+   "kind": "interpretation",
+   "confidence": 0.5,
+   "description": "Goku et Vegeta Blue évoluent à un niveau comparable",
+   "source": {
+    "type": "original_work",
+    "work": "Dragon Ball",
+    "reference": "Dragon Ball Super",
+    "verified": false
+   }
+  },
+  {
+   "id": "rel.madara_naruto_ap",
+   "a": "madara_uchiha:ten_tails",
+   "b": "naruto_uzumaki:shippuden",
+   "category": "attack_power",
+   "relation": ">",
+   "kind": "statement",
+   "confidence": 0.7,
+   "description": "Madara Jinchūriki domine Naruto en mode Kurama",
+   "source": {
+    "type": "original_work",
+    "work": "Naruto",
+    "reference": "4e Grande Guerre",
+    "verified": false
+   }
+  },
+  {
+   "id": "rel.madara_naruto_speed",
+   "a": "madara_uchiha:ten_tails",
+   "b": "naruto_uzumaki:shippuden",
+   "category": "speed",
+   "relation": ">",
+   "kind": "statement",
+   "confidence": 0.65,
+   "description": "Madara Jinchūriki plus rapide que Naruto Kurama",
+   "source": {
+    "type": "original_work",
+    "work": "Naruto",
+    "reference": "4e Grande Guerre",
+    "verified": false
+   }
+  },
+  {
+   "id": "rel.naruto_sasuke_ap",
+   "a": "naruto_uzumaki:six_paths",
+   "b": "sasuke_uchiha:rinnegan",
+   "category": "attack_power",
+   "relation": "=",
+   "kind": "interpretation",
+   "confidence": 0.5,
+   "description": "Naruto Six Paths et Sasuke Rinnegan comparables",
+   "source": {
+    "type": "original_work",
+    "work": "Naruto",
+    "reference": "Valley of the End II",
+    "verified": false
+   }
+  },
+  {
+   "id": "rel.aizen_ichigo_ap",
+   "a": "sosuke_aizen:hogyoku",
+   "b": "ichigo_kurosaki:bankai",
+   "category": "attack_power",
+   "relation": ">",
+   "kind": "direct",
+   "confidence": 0.75,
+   "description": "Aizen fusionné domine Ichigo Bankai",
+   "source": {
+    "type": "original_work",
+    "work": "Bleach",
+    "reference": "Fake Karakura Town",
+    "verified": false
+   }
+  },
+  {
+   "id": "rel.ichigo_aizen_out",
+   "a": "ichigo_kurosaki:mugetsu",
+   "b": "sosuke_aizen:hogyoku",
+   "category": "outcome",
+   "relation": ">",
+   "kind": "direct",
+   "confidence": 0.85,
+   "description": "Ichigo (Final Getsuga) bat Aizen",
+   "source": {
+    "type": "original_work",
+    "work": "Bleach",
+    "reference": "Fake Karakura Town",
+    "verified": false
+   }
+  },
+  {
+   "id": "rel.sukuna_gojo_out",
+   "a": "ryomen_sukuna:full",
+   "b": "gojo_satoru:base",
+   "category": "outcome",
+   "relation": ">",
+   "kind": "direct",
+   "confidence": 0.9,
+   "description": "Sukuna bat Gojo",
+   "source": {
+    "type": "original_work",
+    "work": "Jujutsu Kaisen",
+    "reference": "Shinjuku Showdown",
+    "verified": false
+   }
+  }
+ ]
+}

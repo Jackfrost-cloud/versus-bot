@@ -1,0 +1,631 @@
+{
+ "characters": [
+  {
+   "id": "monkey_d_luffy",
+   "name": "Monkey D. Luffy",
+   "short": "Luffy",
+   "universe": "one_piece",
+   "default_form": "gear5",
+   "data_status": "draft",
+   "aliases": [
+    "luffy",
+    "monkey d luffy",
+    "monkey luffy",
+    "straw hat luffy",
+    "luffy chapeau de paille"
+   ],
+   "forms": [
+    {
+     "id": "gear4",
+     "name": "Gear 4",
+     "aliases": [
+      "luffy gear 4",
+      "luffy g4",
+      "gear 4 luffy",
+      "gear4 luffy",
+      "luffy gear4"
+     ],
+     "inherits": []
+    },
+    {
+     "id": "gear5",
+     "name": "Gear 5 / Nika",
+     "aliases": [
+      "luffy gear 5",
+      "luffy g5",
+      "gear 5 luffy",
+      "gear5 luffy",
+      "luffy gear5",
+      "luffy nika",
+      "nika luffy",
+      "luffy joyboy"
+     ],
+     "inherits": [
+      "gear4"
+     ]
+    }
+   ],
+   "feats": [
+    {
+     "id": "monkey_d_luffy.gear4.strength.1",
+     "form": "gear4",
+     "category": "strength",
+     "value": 50,
+     "kind": "interpretation",
+     "description": "Bat Doflamingo à Dressrosa avec Gear 4 (Gigant Gun)",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "Dressrosa",
+      "verified": false
+     }
+    },
+    {
+     "id": "monkey_d_luffy.gear4.speed.2",
+     "form": "gear4",
+     "category": "speed",
+     "value": 40,
+     "kind": "interpretation",
+     "description": "Gear 4 Snakeman : vitesse très supérieure à un Haki classique",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "Dressrosa",
+      "verified": false
+     }
+    },
+    {
+     "id": "monkey_d_luffy.gear4.reaction_speed.3",
+     "form": "gear4",
+     "category": "reaction_speed",
+     "value": 40,
+     "kind": "interpretation",
+     "description": "Haki d'observation avancé : réagit aux attaques de niveau Commandant",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "Wano",
+      "verified": false
+     }
+    },
+    {
+     "id": "monkey_d_luffy.gear4.durability.4",
+     "form": "gear4",
+     "category": "durability",
+     "value": 48,
+     "kind": "interpretation",
+     "description": "Gear 4 : encaisse des attaques massives (Doflamingo, Kaido en partie)",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "Dressrosa / Wano",
+      "verified": false
+     }
+    },
+    {
+     "id": "monkey_d_luffy.gear4.attack_power.5",
+     "form": "gear4",
+     "category": "attack_power",
+     "value": 52,
+     "kind": "interpretation",
+     "description": "Kong Gun et Gigant : détruit de larges portions de terrain",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "Dressrosa",
+      "verified": false
+     }
+    },
+    {
+     "id": "monkey_d_luffy.gear4.stamina.6",
+     "form": "gear4",
+     "category": "stamina",
+     "value": 70,
+     "kind": "interpretation",
+     "description": "Résiste à de très longs combats malgré le coût de Gear 4",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "Wano",
+      "verified": false
+     }
+    },
+    {
+     "id": "monkey_d_luffy.gear4.range.7",
+     "form": "gear4",
+     "category": "range",
+     "value": 28,
+     "kind": "interpretation",
+     "description": "Corps élastique, frappes à longue portée",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "Dressrosa",
+      "verified": false
+     }
+    },
+    {
+     "id": "monkey_d_luffy.gear4.battle_iq.8",
+     "form": "gear4",
+     "category": "battle_iq",
+     "value": 72,
+     "kind": "interpretation",
+     "description": "Improvise, lit les combats et apprend vite",
+     "confidence": 0.55,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "Wano",
+      "verified": false
+     }
+    },
+    {
+     "id": "monkey_d_luffy.gear4.experience.9",
+     "form": "gear4",
+     "category": "experience",
+     "value": 68,
+     "kind": "interpretation",
+     "description": "Nombreux combats contre des Empereurs et Amiraux",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "One Piece",
+      "verified": false
+     }
+    },
+    {
+     "id": "monkey_d_luffy.gear5.strength.10",
+     "form": "gear5",
+     "category": "strength",
+     "value": 56,
+     "kind": "interpretation",
+     "description": "Gear 5 : Bajrang Gun, frappes d'une force supérieure",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "Wano",
+      "verified": false
+     }
+    },
+    {
+     "id": "monkey_d_luffy.gear5.speed.11",
+     "form": "gear5",
+     "category": "speed",
+     "value": 46,
+     "kind": "interpretation",
+     "description": "Gear 5 : bien plus rapide que Gear 4",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "Wano",
+      "verified": false
+     }
+    },
+    {
+     "id": "monkey_d_luffy.gear5.reaction_speed.12",
+     "form": "gear5",
+     "category": "reaction_speed",
+     "value": 46,
+     "kind": "interpretation",
+     "description": "Haki et Gear 5 : réagit à Kaido",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "Wano",
+      "verified": false
+     }
+    },
+    {
+     "id": "monkey_d_luffy.gear5.durability.13",
+     "form": "gear5",
+     "category": "durability",
+     "value": 56,
+     "kind": "interpretation",
+     "description": "Encaisse les coups de Kaido sous forme d'Empereur",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "Wano",
+      "verified": false
+     }
+    },
+    {
+     "id": "monkey_d_luffy.gear5.attack_power.14",
+     "form": "gear5",
+     "category": "attack_power",
+     "value": 58,
+     "kind": "interpretation",
+     "description": "Bat Kaido : attaque à l'échelle de l'île",
+     "confidence": 0.55,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "Wano",
+      "verified": false
+     }
+    },
+    {
+     "id": "monkey_d_luffy.gear5.stamina.15",
+     "form": "gear5",
+     "category": "stamina",
+     "value": 62,
+     "kind": "statement",
+     "description": "Gear 5 est coûteux ; il s'est épuisé après son usage prolongé",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "Wano",
+      "verified": false
+     }
+    },
+    {
+     "id": "monkey_d_luffy.gear5.range.16",
+     "form": "gear5",
+     "category": "range",
+     "value": 36,
+     "kind": "interpretation",
+     "description": "Allonge élargie par le pouvoir du Fruit éveillé",
+     "confidence": 0.4,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "Wano",
+      "verified": false
+     }
+    }
+   ],
+   "abilities": [
+    {
+     "id": "haki_arm",
+     "name": "Haki de l'armement",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "armament_haki"
+     ],
+     "potency": 0.5,
+     "reliability": 0.8,
+     "win_type": "none",
+     "hax": false,
+     "needs_contact": false,
+     "bypasses": [
+      "intangibility"
+     ],
+     "description": "Permet de toucher les Logia",
+     "confidence": 0.8,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "haki_obs",
+     "name": "Haki d'observation",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "precognition",
+      "sensing"
+     ],
+     "potency": 0.5,
+     "reliability": 0.75,
+     "win_type": "none",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Anticipe les attaques proches",
+     "confidence": 0.7,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "haki_kings",
+     "name": "Haki des Rois",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "mind_control"
+     ],
+     "potency": 0.3,
+     "reliability": 0.5,
+     "win_type": "neutralize",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Pression qui peut assommer les volontés faibles",
+     "confidence": 0.6,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "nika_cartoon",
+     "name": "Physique cartoon (Gear 5)",
+     "forms": [
+      "gear5"
+     ],
+     "tags": [
+      "reality"
+     ],
+     "potency": 0.45,
+     "reliability": 0.6,
+     "win_type": "neutralize",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Modifie l'environnement et la forme des choses",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "",
+      "verified": false
+     }
+    }
+   ],
+   "resistances": [
+    {
+     "forms": [
+      "*"
+     ],
+     "tag": "mind_control",
+     "level": 0.35,
+     "via": "haki_kings",
+     "note": "Haki des Rois",
+     "confidence": 0.5
+    }
+   ],
+   "weaknesses": [
+    {
+     "forms": [
+      "*"
+     ],
+     "tag": "nullification",
+     "severity": 0.3,
+     "note": "Granit marin (kairoseki) annule le pouvoir du Fruit"
+    }
+   ]
+  },
+  {
+   "id": "roronoa_zoro",
+   "name": "Roronoa Zoro",
+   "short": "Zoro",
+   "universe": "one_piece",
+   "default_form": "base",
+   "data_status": "draft",
+   "aliases": [
+    "zoro",
+    "roronoa zoro"
+   ],
+   "forms": [
+    {
+     "id": "base",
+     "name": "Post-Wano, Enma",
+     "aliases": [
+      "zoro enma",
+      "zoro post timeskip",
+      "zoro wano"
+     ],
+     "inherits": []
+    }
+   ],
+   "feats": [
+    {
+     "id": "roronoa_zoro.base.strength.1",
+     "form": "base",
+     "category": "strength",
+     "value": 46,
+     "kind": "interpretation",
+     "description": "Découpe des adversaires de haut niveau avec ses sabres",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "Wano",
+      "verified": false
+     }
+    },
+    {
+     "id": "roronoa_zoro.base.speed.2",
+     "form": "base",
+     "category": "speed",
+     "value": 38,
+     "kind": "interpretation",
+     "description": "Rivalise avec les commandants des Empereurs",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "Wano",
+      "verified": false
+     }
+    },
+    {
+     "id": "roronoa_zoro.base.reaction_speed.3",
+     "form": "base",
+     "category": "reaction_speed",
+     "value": 38,
+     "kind": "interpretation",
+     "description": "Haki d'observation poussé : réagit à King",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "Wano",
+      "verified": false
+     }
+    },
+    {
+     "id": "roronoa_zoro.base.durability.4",
+     "form": "base",
+     "category": "durability",
+     "value": 44,
+     "kind": "interpretation",
+     "description": "Encaisse des coups de King et de Kaido",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "Wano",
+      "verified": false
+     }
+    },
+    {
+     "id": "roronoa_zoro.base.attack_power.5",
+     "form": "base",
+     "category": "attack_power",
+     "value": 48,
+     "kind": "interpretation",
+     "description": "Coupe des structures massives (Ashura/Enma)",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "Wano",
+      "verified": false
+     }
+    },
+    {
+     "id": "roronoa_zoro.base.stamina.6",
+     "form": "base",
+     "category": "stamina",
+     "value": 70,
+     "kind": "interpretation",
+     "description": "Continue de se battre malgré de lourdes blessures",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "Thriller Bark / Wano",
+      "verified": false
+     }
+    },
+    {
+     "id": "roronoa_zoro.base.range.7",
+     "form": "base",
+     "category": "range",
+     "value": 28,
+     "kind": "interpretation",
+     "description": "Lames volantes à longue portée",
+     "confidence": 0.45,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "Wano",
+      "verified": false
+     }
+    },
+    {
+     "id": "roronoa_zoro.base.battle_iq.8",
+     "form": "base",
+     "category": "battle_iq",
+     "value": 74,
+     "kind": "interpretation",
+     "description": "Technique de sabre experte, adaptation tactique",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "Wano",
+      "verified": false
+     }
+    },
+    {
+     "id": "roronoa_zoro.base.experience.9",
+     "form": "base",
+     "category": "experience",
+     "value": 66,
+     "kind": "interpretation",
+     "description": "Combats contre des Capitaines et des Commandants",
+     "confidence": 0.5,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "One Piece",
+      "verified": false
+     }
+    }
+   ],
+   "abilities": [
+    {
+     "id": "haki_arm_z",
+     "name": "Haki de l'armement avancé",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "armament_haki"
+     ],
+     "potency": 0.55,
+     "reliability": 0.85,
+     "win_type": "none",
+     "hax": false,
+     "needs_contact": false,
+     "bypasses": [
+      "intangibility"
+     ],
+     "description": "Imprègne ses lames pour toucher les Logia",
+     "confidence": 0.8,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "",
+      "verified": false
+     }
+    },
+    {
+     "id": "haki_obs_z",
+     "name": "Haki d'observation",
+     "forms": [
+      "*"
+     ],
+     "tags": [
+      "precognition",
+      "sensing"
+     ],
+     "potency": 0.5,
+     "reliability": 0.75,
+     "win_type": "none",
+     "hax": true,
+     "needs_contact": false,
+     "bypasses": [],
+     "description": "Anticipation de très proche portée",
+     "confidence": 0.7,
+     "source": {
+      "type": "original_work",
+      "work": "One Piece",
+      "reference": "",
+      "verified": false
+     }
+    }
+   ],
+   "resistances": [],
+   "weaknesses": []
+  }
+ ]
+}
